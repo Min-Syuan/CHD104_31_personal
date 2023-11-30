@@ -1,0 +1,267 @@
+.header {
+    position: relative;
+    display: flex;
+}
+.coupon {
+    text-align: center;
+    font-size: 16px;
+    background-color: #CEB9A4;
+    padding: 6px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+i {
+    padding-left: 10px;
+}
+.coupon a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+}
+.coupon a:hover {
+    color: #867E7E;
+}
+.scroll-menu-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;  
+}
+.scroll-menu {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background-color: white; 
+    justify-content: space-around;
+    margin: auto;
+    z-index: 9999;
+    
+}
+.scroll-menu img {
+    display: block;
+    padding: 0 10px 10px 10px; 
+    height: 100%;
+}
+.scroll-menu .list {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.scroll-menu nav ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+.scroll-menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.scroll-menu .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #504d4d;
+}
+.scroll-menu .icon{
+    display: flex;
+    align-items: center;   
+}
+.icon i{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.new-introduce {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.new-introduce .section1 {
+    width: 800px;
+    height: 400px;
+    background-color: #A79E9E;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-introduce .section2 {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.new-introduce .content1 {
+    width: 350px;
+    height: auto;
+    padding: 30px;
+}
+.new-introduce .content2 {
+    width: 350px;
+    height: auto;
+    padding: 30px;
+}
+
+
+.photo1 img{
+    width: 300px;
+    display: block;  
+    padding: 50px;    
+}
+.candle1 img{
+    width: 150px;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 270px;  
+}
+.photo2 img{
+    width: 300px;
+    display: block;  
+    padding: 50px;    
+}
+.candle2 img{
+    width: 150px;
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: -30px;
+}
+.section1 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    padding: 8px 0;
+
+}
+.section2 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', serif;
+    color: #898585;
+    padding: 8px 0;
+
+}
+.section1 p.flavor, .section1 p.text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    padding: 8px 0;
+    line-height: 25px;
+}
+.section2 p.flavor, .section2 p.text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Serif TC', serif;
+    color: #898585;
+    padding: 8px 0;
+    line-height: 25px;
+}
+
+
+.footer {
+    background-color: #CEB9A4;
+    position: relative;
+    width: auto;
+}
+.footer h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: rgb(102, 99, 99)
+}
+.footer-container {
+    width: auto;
+    height: 350px;
+    background-color: #CEB9A4;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.subscribe {
+    width: 32%;
+    height: 230px;
+    margin: 0 6%;
+}
+.subscribe input {
+    border: none;
+}
+.subscribe input::placeholder{
+    color: #989797;
+}
+.subscribe .email-box {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 6px 8px;
+    margin: 8px 0;
+    width: 100%;
+}
+.email-box button {
+    border: none;
+    background: white;
+    font-weight: 700;
+}
+.about-follow{
+    width: 20%;
+    height: 230px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.about-us{
+    padding-bottom: 20px;
+}
+.about-us a{
+    text-decoration: none;
+}
+
+.follow{
+    padding-top: 20px;
+}
+.follow i{
+    font-size: 30px;
+}
+
+.service{
+    width: 20%;
+    height: 230px;
+}
+.service a {
+    text-decoration: none;
+}
+.contact{
+    width: 23%;
+    height: 230px;
+    padding-left: 20px;
+    margin: 0 6% 0 0;
+}
+.copy-right {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}

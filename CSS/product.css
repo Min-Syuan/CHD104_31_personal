@@ -1,0 +1,379 @@
+.header {
+    position: relative;
+    display: flex;
+}
+.coupon {
+    text-align: center;
+    font-size: 16px;
+    background-color: #CEB9A4;
+    padding: 6px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+
+}
+i {
+    padding-left: 10px;
+}
+.coupon a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+}
+.coupon a:hover {
+    color: #867E7E;
+}
+.scroll-menu-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;  
+}
+.scroll-menu {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background-color: white; 
+    justify-content: space-around;
+    margin: auto;
+    z-index: 9999;
+    
+}
+.scroll-menu img {
+    display: block;
+    padding: 0 10px 10px 10px; 
+    height: 100%;
+}
+.scroll-menu .list {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.scroll-menu nav ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+.scroll-menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.scroll-menu .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #504d4d;
+}
+.scroll-menu .icon{
+    display: flex;
+    align-items: center;   
+}
+.icon i{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.product-main .container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.product-main .row {
+    display: flex;
+    width: 900px;
+    
+    
+}
+.product-pic {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 200px auto;
+    
+}
+
+.product-pic .main-pic {
+    width: 100%;
+
+}
+.product-pic .other-pic {
+    display: flex;
+}
+.other-pic img {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 0;
+}
+.product-card {
+    padding: 10px;
+    font-size: 16px;
+    margin: 200px 0;
+}
+.product-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 20px 20px 20px;
+    line-height: 25px;
+}
+.product-card .introduce {
+    padding: 0 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.product-card .flavor {
+    padding: 20px 20px;
+    line-height: 20px;
+}
+.product-card .made {
+    padding: 0 20px;
+    line-height: 20px;
+}
+.card-border {
+    width: 90%;
+    height: 1px;
+    background-color: #504d4d;
+    margin: 10px auto 10px auto;
+}
+.product-price {
+    justify-content: left;
+    display: flex;
+    align-items: baseline;
+    padding: 10px 0;
+}
+.product-price .old-price {
+    text-decoration: line-through;
+    color: #797373;
+    margin-left: 20px;
+    font-size: 14px;
+    align-items: end;
+}
+.product-price .new-price {
+    font-size: 28px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #7b1f13;
+}
+.qty-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border: 1px solid #504d4d;
+    padding: 5px 0;
+    margin: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.qty-btn button {
+    border: none;
+    background-color: white;
+}
+.qty-btn span {
+    width: 40%;
+    text-align: center;
+}
+
+.cart-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 5px;
+    text-align: center;
+}
+.cart-btn .add {
+    background-color: #898585;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 10px 5px 10px 10px;
+    border-radius: 4px;
+}
+.cart-btn .buy {
+    background-color: #000000;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 4px;
+}
+.cart-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.recommend {
+    height: 600px;
+    display: flex;
+    width: 100%;
+    background-color: #EEEAE6; 
+}
+
+.recommend .container {
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+
+
+}
+.recommend-title {
+    width: 350px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Allan', serif;
+    background-color: #F2A131;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: -120px;
+    left: -30px;
+
+}
+.recommend .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-between;
+    
+}
+.recommend .card {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    
+}
+
+
+.recommend .card img.small {
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    top: 200px;
+    left: 130px;
+}
+.recommend .card a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    color: #504d4d;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', serif;
+}
+.recommend .card p {
+    text-align: center;
+    color: #504d4d;
+    font-size: 20px;
+}
+
+.recommend .card span.old {
+    text-decoration: line-through;
+    padding-right: 20px;
+    color: #797373;
+}
+
+
+
+.footer {
+    background-color: #CEB9A4;
+    position: relative;
+    width: auto;
+}
+.footer h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: rgb(102, 99, 99)
+}
+.footer-container {
+    width: auto;
+    height: 350px;
+    background-color: #CEB9A4;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.subscribe {
+    width: 32%;
+    height: 230px;
+    margin: 0 6%;
+}
+.subscribe input {
+    border: none;
+}
+.subscribe input::placeholder{
+    color: #989797;
+}
+.subscribe .email-box {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 6px 8px;
+    margin: 8px 0;
+    width: 100%;
+}
+.email-box button {
+    border: none;
+    background: white;
+    font-weight: 700;
+}
+.about-follow{
+    width: 20%;
+    height: 230px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.about-us{
+    padding-bottom: 20px;
+}
+.about-us a{
+    text-decoration: none;
+}
+
+.follow{
+    padding-top: 20px;
+}
+.follow i{
+    font-size: 30px;
+}
+
+.service{
+    width: 20%;
+    height: 230px;
+}
+.service a {
+    text-decoration: none;
+}
+.contact{
+    width: 23%;
+    height: 230px;
+    padding-left: 20px;
+    margin: 0 6% 0 0;
+}
+.copy-right {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}

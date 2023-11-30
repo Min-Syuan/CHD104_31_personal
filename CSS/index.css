@@ -1,0 +1,524 @@
+.body {
+    position: relative;
+    font-family: 'Noto Serif TC', serif;
+}
+.coupon {
+    text-align: center;
+    font-size: 16px;
+    background-color: #CEB9A4;
+    padding: 6px;
+    color: white;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+
+}
+i {
+    padding-left: 10px;
+}
+.coupon a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+}
+.coupon a:hover {
+    color: #867E7E;
+}
+.header {
+    background-image: url(../picture/pexels-thevibrantmachine-3066868\ 1.png);
+    background-size: cover;
+    height: 950px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header .logo-icon {
+    display: flex;   
+    margin: 20px auto;
+}
+.logo-icon .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 450px; 
+}
+.logo-icon .logo img{
+    width: 100%;
+}
+.logo-icon .icon{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+
+}
+.header .list {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+}
+.header .list div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.header .list nav ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header .list nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif; 
+}
+.banner img {
+    width: 100%; 
+}
+#scroll-menu {
+    display: none;
+}
+.scroll-menu-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.scroll-menu {
+    display: flex;
+    position: fixed;
+    top: 28px;
+    width: 100%;
+    height: 100px;
+    background-color: white; 
+    justify-content: center;
+    z-index: 9999;
+    
+}
+.scroll-menu img {
+    margin: 0 10px 10px 0; 
+}
+.scroll-menu .list {
+    display: flex;
+    align-items: center;
+}
+.scroll-menu nav ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+.scroll-menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.scroll-menu .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #504d4d;
+}
+.scroll-menu .icon{
+    display: flex;
+    align-items: center;   
+    justify-content: left;
+}
+.icon i{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.news-wrap {
+    max-width: 1920px;
+    height: 900px; 
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+.news-container {
+    width: 1200px;
+    
+}
+.news {
+    position: relative;
+    width: 1200px;
+    top: 30px;
+}
+.news .pic {
+    position: absolute;
+    z-index: -1;
+}
+.news .title{  
+    margin: 60px 0 10px 20px;
+    color: #A79E9E;
+    font-family: 'Allan', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    
+}
+.content {
+    display: flex;
+    position: absolute;
+    margin: 130px 0;
+    width: 1200px;
+    justify-content: center; 
+}
+
+.photo {
+    width: 400px;
+    height: 442px;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+.slogan {
+    width: 125px;
+    height: 140px;
+    background-color: #F2A131;
+    color: white;
+    font-family: 'Allerta', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 25px 35px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: -150px;
+    z-index: 2;
+}
+.introduce {
+    width: 490px;
+    height: 400px;
+    /* margin-left: 150px;
+    margin-top: 60px; */
+    position: relative;
+    padding: 0 30px;
+    margin: 60px 0 0 100px;
+}
+.introduce h2 {
+    color: #A79E9E;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 6.4px;
+    height: 50px;
+}
+
+.introduce p {
+    color: #A79E9E;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43px;
+}
+.button-link {
+    text-decoration: none;
+    color: #A79E9E;
+    font-size: 20px;
+    padding: 15px;
+    border: #867E7E;
+    /* background-color: #A79E9E; */
+    position: absolute;
+    top: 370px;
+    left: 380px;
+    border-radius: 4px;
+
+}
+.hot-sale-wrap {
+    max-width: 1920px;
+    height: 900px; 
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.svg-container {
+    position: absolute;  
+}
+.items-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.hot-sale {
+    position: relative;
+    width: 1200px;
+    top: 30px;
+}
+.hot-sale .pic {
+    position: absolute;
+    margin: 70px 0 80px 10px;
+    width: 100%;
+    
+}
+.hot-sale .title {  
+    margin: 80px 0 0 0;
+    color: #A79E9E;
+    font-family: 'Allan', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.hot-sale-items {
+    display: flex;
+    width: 100%;
+    z-index: 300;
+    margin: auto;
+
+}
+.irregular1, .irregular2, .irregular3, .irregular4 {
+    width: 300px;
+    height: 300px;
+    background-color: #b78484;
+    border-radius: 50% 70% 40% 50%/50% 25% 50% 20%;
+    margin: 0 20px;
+}
+.irregular1{
+    background-image: url(../picture/山林木屋蠟燭_紅雪松.png);
+
+}
+.irregular2{
+    background-image: url(../picture/旅人蠟燭_菸草.png);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.irregular3{
+    background-image: url(../picture/夢想系列_苦橙佛手柑.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.irregular4{
+    background-image: url(../picture/午夜星空蠟燭_茉莉.png);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.irregular1:hover,
+.irregular2:hover,
+.irregular3:hover,
+.irregular4:hover {
+    background-color: #9a7d7d;
+    border-radius: 50% 20% 60% 20%/30% 70% 20% 60%;
+}
+
+.about-wrap {
+    max-width: 1920px;
+    height: 900px; 
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.svg-container {
+    position: absolute;  
+}
+.about {
+    position: relative;
+    width: 1200px;
+    top: 30px
+}
+.about .pic {
+    position: absolute;
+    margin: 70px 0 80px 20px;
+    width: 100%; 
+}
+.about .title{  
+    margin: 80px 0 0 0;
+    color: #A79E9E;
+    font-family: 'Allan', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.reason {
+    flex-direction: column;
+    position: absolute;
+    width: 930px;
+    margin-top: 250px;
+
+}
+.reason .section {
+    display: flex;
+    margin: 15px 0;
+}
+.section .first-text {
+    width: 600px;
+    height: 250px;
+    margin-right: 30px;
+    background-color: #A79E9E;  
+}
+.section .second-text {
+    width: 600px;
+    height: 250px;
+    margin-left: 30px;
+    background-color: #A79E9E;
+}
+.section p {
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    line-height: 35px;
+    padding: 40px 60px;
+}
+.section .pic {
+    width: 270px;
+    height: 250px;
+}
+.section img {
+    width: 100%;
+}
+.quality-wrap {
+    max-width: 1920px;
+    height: 900px; 
+    display: flex;
+    margin: 0 auto 150px auto;
+    justify-content: center;
+}
+.quality {
+    position: relative;
+    width: 1200px;
+    top: 40px;
+}
+.quality .pic {
+    position: absolute;
+    margin: 60px 0 0 0;  
+}
+.quality .title{  
+    margin: 70px 0 0 20px;
+    color: #A79E9E;
+    font-family: 'Allan', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.wrap{
+    width: 1200px;
+    position: absolute;
+    margin-top: 250px;  
+}
+.card{
+    height: 550px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #A5835E;
+    background-image: url(../照片/wood-pattern.png);
+}
+
+.card h2 {
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Noto Serif TC', serif;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px 0;
+}
+.card p {
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+    color: white;
+    line-height: 30px;
+    padding: 0 30px;
+}
+.card img { 
+    width:100%
+}
+
+
+.footer {
+    background-color: #CEB9A4;
+    position: relative;
+    width: auto;
+}
+.footer h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: rgb(102, 99, 99)
+}
+.footer-container {
+    width: auto;
+    height: 350px;
+    background-color: #CEB9A4;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.subscribe {
+    width: 32%;
+    height: 230px;
+    margin: 0 6%;
+}
+.subscribe input {
+    border: none;
+}
+.subscribe input::placeholder{
+    color: #989797;
+}
+.subscribe .email-box {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 6px 8px;
+    margin: 8px 0;
+    width: 100%;
+}
+.email-box button {
+    border: none;
+    background: white;
+    font-weight: 700;
+}
+.about-follow{
+    width: 20%;
+    height: 230px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.about-us{
+    padding-bottom: 20px;
+}
+.about-us a{
+    text-decoration: none;
+}
+
+.follow{
+    padding-top: 20px;
+}
+.follow i{
+    font-size: 30px;
+}
+
+.service{
+    width: 20%;
+    height: 230px;
+}
+.service a {
+    text-decoration: none;
+}
+.contact{
+    width: 23%;
+    height: 230px;
+    padding-left: 20px;
+    margin: 0 6% 0 0;
+}
+.copy-right {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
