@@ -105,14 +105,15 @@ i {
     line-height: 20px;
 }
 .about-text, .about-pic {
-    width: 250px;
+    width: 280px;
     padding: 30px;
     display: flex;
     margin: auto;
     color: #81827C;
-    
-
+    font-size: 20px;
+    letter-spacing: 1px;  
 }
+
 .about-border {
     width: 1px;
     background-color: #9da976;
