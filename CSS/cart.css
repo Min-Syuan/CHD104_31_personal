@@ -271,13 +271,13 @@ i {
 }
 
 .add-cart {
-    padding: 8px 10px;
+    padding: 8px 0;
     background-color: #898585;
     color: white;
     border-radius: 4px;
     margin: 8px 0;
-    text-align: center;
-    width: auto;
+    width: 100%;
+    border: none;
 }
 
 .pay-ship-info {
@@ -363,8 +363,8 @@ i {
     padding: 8px 10px;
     width: 80%;
     color: white;
-    text-align: center;
     border-radius: 4px;
+    border: none;
     margin: 20px;
 }
 
