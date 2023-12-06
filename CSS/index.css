@@ -28,8 +28,8 @@ i {
 .header {
     background-image: url(../picture/pexels-thevibrantmachine-3066868\ 1.png);
     background-size: cover;
-    height: 950px;
     background-position: center;
+    height: 950px;
     display: flex;
     flex-direction: column;
     
@@ -74,6 +74,45 @@ i {
     text-decoration: none;
     font-size: 20px;
     color: white;
+}
+.mobile-header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 768px) {
+    .coupon, .coupon a {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../picture/pexels-thevibrantmachine-3066868\ 1.png);
+        background-size: cover;
+        background-position: center;
+
+    }
+    .hidden {
+        display: none;
+    }
+    .header nav {
+        display: none;
+    }
+    .logo-icon .icon {
+        display: none;
+    }
+    .logo-icon .logo{
+        display: none;
+    }
+
+    .mb-logo img{
+        max-height: 100px;
+    }
+    
+    
+    
 }
 .banner img {
     width: 100%; 
