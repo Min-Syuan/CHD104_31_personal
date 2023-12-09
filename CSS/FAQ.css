@@ -116,9 +116,32 @@ i {
     padding: 14px 20px;
     line-height: 26px;
     font-size: 18px;
+    display: none;
 }
+.showAnswer {
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .qa button {
+        font-size: 6vw;
+        align-items: center;
 
+    }
+    .faq_content .q {
+        font-size: 4vw;
+        align-items: center;
+        line-height: 6vw;
+    }
+    .faq_content .a {
+        font-size: 4vw;
 
+    }
+    .faq_content .qa {
+        margin: 0 30px;
+    }
+
+    
+}
 
 
 .footer {
