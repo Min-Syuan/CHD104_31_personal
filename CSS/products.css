@@ -76,6 +76,12 @@ i {
     margin: 0 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+    }
+
 .products-main .container {
     box-sizing: border-box;
     width: 100%; 
@@ -125,6 +131,25 @@ i {
     color: #797373;
 }
 
+@media screen and (max-width: 786px) {
+    .products-main .row {
+        width: 400px;
+    }
+    .products-main .container {
+        width: 100%;
+
+    }
+    .product-wrap {
+        width: 300px;
+
+    }
+
+    .card img {
+        max-width: 100%; 
+        height: auto;
+        display: block;
+    }
+}
 
 
 .footer {
