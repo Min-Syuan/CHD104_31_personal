@@ -23,4 +23,4 @@ handleMediaQueryChange(mediaQuery); // 將此行移至 change 監聽器外面
 
 
 
-const hamBtn = getElementById('ham-btn')
+// const hamBtn = getElementById('ham-btn')
