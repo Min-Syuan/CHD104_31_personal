@@ -263,8 +263,11 @@ i {
 
 @media screen and (max-width: 768px) {
     .article {
-        position: relative;
         font-size: 4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+
     }
     .news-wrap {
         flex-direction: column;
@@ -272,26 +275,32 @@ i {
         height: auto;
     }
     .news-container {
-        position: absolute;
         width: 100%;
     }
 
     .news {
-        
-
-
+        width: 100%;
     }
+
     .content {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     .introduce {
         margin: 100px 0;
-        padding: 0;
         width: auto;
+        padding: 0 30px;
+    }
+    .introduce h2 {
+        text-align: center;
+        font-size: 4vw;
+    }
+    .introduce p {
+        font-size: 4vw;
     }
     .button-link {
-        width: auto;
+        margin-right: 30px;
 
     }
 }
