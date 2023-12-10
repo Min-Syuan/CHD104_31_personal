@@ -228,18 +228,20 @@ i {
 }
 
 .more-coupon p.more {
-    padding: 10px 10px 0 10px;
+    padding: 16px 20px 0 10px;
+    letter-spacing: 1px;
 }
 
 .free-ship {
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
 }
 
 .free-ship .mark {
     background-color: rgb(194, 166, 141);
-    padding: 8px 10px;
-    margin: 5px 10px ;
+    padding: 10px 10px;
+    margin: 16px 10px 16px 10px ;
     border-radius: 5px;
     font-size: 14px;
     color: white;
@@ -309,11 +311,17 @@ i {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    height: 480px;
+    height: auto;
 }
 .ship-pay-content p{
     padding: 8px;
     line-height: 18px;
+    padding: 8px;
+}
+.ship-pay-content ul, li {
+    line-height: 30px;
+    font-size: 14px;
+
 }
 .dropbtn {
     background-color: #fff7f7;
