@@ -87,51 +87,51 @@ i {
 
 .new-introduce .section1 {
     width: 800px;
-    height: 400px;
+    height: auto;
     background-color: #A79E9E;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: space-between;
 }
 
 .new-introduce .section2 {
     width: 800px;
-    height: 400px;
+    height: auto;
     background-color: white;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: space-between;
 }
 .new-introduce .content1 {
     width: 350px;
     height: auto;
-    padding: 30px;
+    padding: 25px;
 }
 .new-introduce .content2 {
     width: 350px;
     height: auto;
-    padding: 30px;
+    padding: 25px;
 }
 
-
+.photo-wrap {
+    position: relative;
+}
 .photo1 img{
     width: 300px;
     display: block;  
-    padding: 50px;    
+    margin: 50px;    
 }
 .candle1 img{
     width: 150px;
     display: block;
     position: absolute;
     top: 200px;
-    left: 270px;  
+    right: -30px;  
 }
 .photo2 img{
     width: 300px;
     display: block;  
-    padding: 50px;    
+    margin: 50px;    
 }
 .candle2 img{
     width: 150px;
@@ -171,6 +171,31 @@ i {
     color: #898585;
     padding: 8px 0;
     line-height: 25px;
+}
+@media screen and (max-width: 768px) {
+    .new-introduce {
+        width: 100%;
+    }
+    .section1, .section2 {
+        margin: auto;
+        max-width: 300px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .photo1, .photo2 {
+        width: 300px;
+        overflow: hidden;
+    }
+    .photo1 img, .photo2 img{
+        /* width: auto;
+        height: auto; */
+        max-width: 100%; 
+        max-height: 100%; 
+        display: block; 
+        margin: auto; 
+        padding: 50px 0;
+    }
+    
 }
 
 
@@ -264,4 +289,10 @@ i {
     padding-bottom: 10px;
     color: white;
     font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+    
 }
