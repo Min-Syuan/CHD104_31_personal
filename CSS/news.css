@@ -116,31 +116,20 @@ i {
 .photo-wrap {
     position: relative;
 }
-.photo1 img{
+.photo img{
     width: 300px;
     display: block;  
     margin: 50px;    
 }
-.candle1 img{
+.candle img {
     width: 150px;
     display: block;
     position: absolute;
     top: 200px;
     right: -30px;  
 }
-.photo2 img{
-    width: 300px;
-    display: block;  
-    margin: 50px;    
-}
-.candle2 img{
-    width: 150px;
-    display: block;
-    position: absolute;
-    top: 200px;
-    right: -30px;
-}
-.section1 h2 {
+
+.content1 h2 {
     font-size: 25px;
     font-weight: 700;
     font-family: 'Noto Serif TC', serif;
@@ -148,7 +137,7 @@ i {
     padding: 8px 0;
 
 }
-.section2 h2 {
+.content2 h2 {
     font-size: 25px;
     font-weight: 700;
     font-family: 'Noto Serif TC', serif;
@@ -156,7 +145,7 @@ i {
     padding: 8px 0;
 
 }
-.section1 p.flavor, .section1 p.text {
+.content1 p, .content1 p {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Noto Serif TC', serif;
@@ -164,7 +153,7 @@ i {
     padding: 8px 0;
     line-height: 25px;
 }
-.section2 p.flavor, .section2 p.text {
+.content2 p, .content2 p {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Noto Serif TC', serif;
@@ -176,25 +165,48 @@ i {
     .new-introduce {
         width: 100%;
     }
-    .section1, .section2 {
+    .section1 {
+        margin: auto;
+        max-width: 340px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .section2 {
         margin: auto;
         max-width: 300px;
         width: 100%;
-        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
     }
-    .photo1, .photo2 {
+    .content1, .content2 {
+        width: 300px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .content1 h2, .content2 h2 {
+        font-size: 1.4rem;
+        
+        
+
+    }
+    .content1 p, .content2 p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+    }
+    .photo {
         width: 300px;
         overflow: hidden;
     }
-    .photo1 img, .photo2 img{
-        /* width: auto;
-        height: auto; */
-        max-width: 100%; 
-        max-height: 100%; 
+    .photo img{
         display: block; 
         margin: auto; 
-        padding: 50px 0;
+        padding: 30px 0;
     }
+    .candle img {
+        width: 140px;
+    }
+
     
 }
 
