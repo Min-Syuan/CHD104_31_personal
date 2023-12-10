@@ -1,9 +1,3 @@
-
-// const btns = document.getElementsByClassName('btnPlus');
-// function showAnswer () {
-//     btns[i].onclick
-// }
-
 const qas = document.querySelectorAll('.qa');
 
 qas.forEach(qa => {

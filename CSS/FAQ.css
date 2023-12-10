@@ -93,6 +93,10 @@ i {
 .faq_content .qa {
     display: flex;
     flex-direction: column;
+    letter-spacing: 1px;
+}
+.qa label {
+    cursor: pointer;
 }
 .qa button {
     border: none;
@@ -123,17 +127,17 @@ i {
 }
 @media screen and (max-width: 768px) {
     .qa button {
-        font-size: 6vw;
+        font-size: 5vw;
         align-items: center;
 
     }
     .faq_content .q {
-        font-size: 4vw;
+        font-size: 3vw;
         align-items: center;
         line-height: 6vw;
     }
     .faq_content .a {
-        font-size: 4vw;
+        font-size: 3vw;
 
     }
     .faq_content .qa {
