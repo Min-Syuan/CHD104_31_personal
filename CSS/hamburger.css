@@ -63,3 +63,19 @@
     border: none;
     background-color: #E9E9E9;
 }
+
+
+.mobile-header, .mb-search, .navigation {
+    display:none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-header, .mb-search {
+        display: block;
+        display: flex;
+        
+    }
+    .navigation {
+        display: block;
+    }
+}
