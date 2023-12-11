@@ -19,3 +19,10 @@ const mediaQuery = window.matchMedia('(max-width: 768px)');
 mediaQuery.addEventListener('change', (e) => handleMediaQueryChange(e.currentTarget));
 
 handleMediaQueryChange(mediaQuery); // 將此行移至 change 監聽器外面
+
+
+$(function(){
+    $('#ham-btn').click(function(){
+        $('#ham-nav').slideToggle(500);
+    })
+})
