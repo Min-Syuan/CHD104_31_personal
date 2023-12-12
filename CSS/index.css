@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alex Brush');
+
 .body {
     position: relative;
 }
@@ -183,14 +185,15 @@ i {
 }
 .news .pic {
     position: absolute;
+    margin: 10px 0 0 0;
 }
 .news .title{  
-    margin: 60px 0 10px 20px;
+    margin: 60px 0 0 0;
     color: #A79E9E;
-    font-family: 'Allan', serif;
+    font-family: 'Alex Brush', cursive;
     font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-weight: 800;
+    letter-spacing: 6px;
     
 }
 .content {
@@ -335,17 +338,17 @@ i {
 }
 .hot-sale .pic {
     position: absolute;
-    margin: 70px 0 80px 10px;
+    margin: 80px 0 80px 10px;
     width: 100%;
     
 }
 .hot-sale .title {  
     margin: 80px 0 0 0;
     color: #A79E9E;
-    font-family: 'Allan', serif;
+    font-family: 'Alex Brush', cursive;
     font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-weight: 800;
+    letter-spacing: 6px;
 }
 .items-container {
     display: flex;
@@ -362,6 +365,30 @@ i {
     background-color: #b78484;
     border-radius: 50% 70% 40% 50%/50% 25% 50% 20%;
     margin: 0 20px;
+    transition: .5s ease;
+}
+.irregular1 img, .irregular2 img, .irregular3 img, .irregular4 img {
+    margin-top: 150px;
+    margin-left: 200px;
+
+}
+.hot-sale-items h2 a {
+    display: block;
+    text-decoration: none;
+    color: #504d4d;
+    padding: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.hot-sale-items p {
+    text-align: center;
+}
+
+.hot-sale-items span.old {
+    text-decoration: line-through;
+    padding-right: 20px;
+    color: #797373;
+    
 }
 .irregular1{
     background-image: url(../picture/山林木屋蠟燭_紅雪松.png);
@@ -385,6 +412,7 @@ i {
     background-position: bottom;
     
 }
+
 .irregular1:hover,
 .irregular2:hover,
 .irregular3:hover,
@@ -394,9 +422,9 @@ i {
 }
 
 @media screen and (max-width: 768px){
-    .svg-container {
+    /* .svg-container {
         display: none;
-    }
+    } */
     .items-container {
         width: 330px;
         overflow: hidden;
@@ -434,16 +462,16 @@ i {
 }
 .about .pic {
     position: absolute;
-    margin: 70px 0 80px 20px;
+    margin: 75px 0 0 30px;
     width: 100%; 
 }
 .about .title{  
     margin: 80px 0 0 0;
     color: #A79E9E;
-    font-family: 'Allan', serif;
+    font-family: 'Alex Brush', cursive;
     font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-weight: 800;
+    letter-spacing: 6px;
 }
 .reason {
     flex-direction: column;
@@ -491,15 +519,15 @@ i {
 }
 .quality .pic {
     position: absolute;
-    margin: 60px 0 0 0;  
+    margin: 70px 0 0 0;  
 }
 .quality .title{  
     margin: 70px 0 0 20px;
     color: #A79E9E;
-    font-family: 'Allan', serif;
+    font-family: 'Alex Brush', cursive;
     font-size: 64px;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-weight: 800;
+    letter-spacing: 6px;
 }
 .wrap{
     width: 1200px;
@@ -512,6 +540,7 @@ i {
     margin: 30px;
     background-color: #A5835E;
     background-image: url(../picture/wood-pattern.png);
+    border-radius: 10px;
 }
 
 .card h2 {
@@ -531,7 +560,8 @@ i {
     padding: 0 30px;
 }
 .card img { 
-    width:100%
+    width:100%;
+    border-radius: 10px;
 }
 
 

@@ -19,11 +19,12 @@
     width: 100%;
     text-decoration: none;
     display: block;
-    padding: 20px 6.5%;
+    padding: 15px 6.5%;
     position: relative;
-    border-bottom: 1px solid #898585;
-    background-color: antiquewhite;
+    border-bottom: 1px solid #dddcdc;
+    background-color: rgb(255, 245, 232);
     box-sizing: border-box;
+    color: #898585;
 }
 
 .mb-logo {
