@@ -111,7 +111,7 @@ i {
 .banner img {
     width: 100%; 
 }
-.hidden {
+#scroll {
     display: none;
 }
 
