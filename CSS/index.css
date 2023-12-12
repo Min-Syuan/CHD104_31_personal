@@ -77,12 +77,6 @@ i {
     font-size: 20px;
     color: white;
 }
-.mobile-header {
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
-
-}
 @media screen and (max-width: 768px) {
     .coupon, .coupon a {
         display: none;
@@ -90,8 +84,8 @@ i {
 
     .header {
         width: 100%;
-        height: 100vh;
-        background-image: url(../picture/pexels-thevibrantmachine-3066868\ 1.png);
+        height: 90vh;
+        background-image: url(../picture/banner_small.png);
         background-size: cover;
         background-position: center;
 
@@ -108,6 +102,10 @@ i {
     .logo-icon .logo{
         display: none;
     }
+    .svg-container {
+        display: none;
+    }
+    
 
 }
 .banner img {
@@ -281,18 +279,29 @@ i {
     .news-container {
         width: 100%;
     }
-
     .news {
         width: 100%;
+        top: 1px0;
+    }
+    .news .title {
+        font-size: 3rem;
+        margin: 40px 0 0 100px;
+    }
+    .news .pic {
+        margin: 5px 0 0 100px;
+    }
+    .news img {
+        width: 11rem;
     }
 
     .content {
         flex-direction: column;
         width: 100%;
         align-items: center;
+        margin-top: 100px;
     }
     .introduce {
-        margin: 100px 0;
+        margin: 80px 0;
         width: auto;
         padding: 0 30px;
     }
@@ -308,11 +317,18 @@ i {
         font-size: 4vw;
     }
     .slogan {
-        /* display: none; */
-        font-size: 6vw;
+        font-size: 5vw;
         line-height: 150%;
+        padding: 7%;
     }
 
+}
+@media screen and (max-width: 414px) {
+    .slogan {
+        font-size: 6vw;
+        line-height: 170%;
+        padding: 5%;
+    }
 }
 
 
@@ -366,10 +382,11 @@ i {
     border-radius: 50% 70% 40% 50%/50% 25% 50% 20%;
     margin: 0 20px;
     transition: .5s ease;
+    max-width: 100%;
 }
 .irregular1 img, .irregular2 img, .irregular3 img, .irregular4 img {
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 180px;
 
 }
 .hot-sale-items h2 a {
@@ -422,18 +439,36 @@ i {
 }
 
 @media screen and (max-width: 768px){
-    /* .svg-container {
-        display: none;
-    } */
+    .hot-sale-wrap {
+        background-color: #EEEAE6;
+        width: 100%;
+        margin-top: 65rem;
+        height: 700px;
+    }
+    .hot-sale {
+        width: 100%;
+    }
+    .hot-sale .title {
+        font-size: 3rem;
+        margin: 40px 0 0 60px;
+        
+    }
+    .hot-sale .pic {
+        margin: 40px 0 0 100px;
+
+    }
+    .hot-sale img {
+        width: 15rem;
+        
+    }
     .items-container {
         width: 330px;
         overflow: hidden;
+        margin: 100px auto;
     }
     .items-wrap, .hot-sale {
         width: 100%;
-    }
-    .hot-sale-wrap {
-        margin-top: 1300px;
+        vertical-align: middle;
     }
     .hot-sale-items {
         display: flex;
@@ -454,6 +489,7 @@ i {
 }
 .svg-container {
     position: absolute;  
+    height: auto;
 }
 .about {
     position: relative;
@@ -505,6 +541,29 @@ i {
 .section img {
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    .reason .section {
+        flex-direction: column;
+    }
+    .about {
+        width: 100%;
+    }
+    .about .title {
+        font-size: 3rem;
+    }
+    
+    .about img {
+        width: 15rem;
+    }
+    .reason {
+        width: 300px;
+    }
+    .section .text-area {
+        width: 300px;
+        height: auto;
+    }
+}
+
 .quality-wrap {
     max-width: 1920px;
     height: 900px; 
@@ -564,95 +623,3 @@ i {
     border-radius: 10px;
 }
 
-
-.footer {
-    background-color: #CEB9A4;
-    position: relative;
-    width: auto;
-}
-.footer h3{
-    font-weight: 700;
-    font-size: 20px;
-}
-.footer a{
-    color: white;
-}
-.footer a:hover{
-    color: rgb(102, 99, 99)
-}
-.footer-container {
-    width: auto;
-    height: 350px;
-    background-color: #CEB9A4;
-    display: flex;
-    width: auto;
-    margin: auto;
-    align-items: center;
-    line-height: 30px;
-    color: white;
-    font-size: 16px;
-    justify-content: space-around;
-}
-.subscribe {
-    width: 32%;
-    height: 230px;
-    margin: 0 6%;
-}
-.subscribe input {
-    border: none;
-}
-.subscribe input::placeholder{
-    color: #989797;
-}
-.subscribe .email-box {
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    padding: 6px 8px;
-    margin: 8px 0;
-    width: 100%;
-}
-.email-box button {
-    border: none;
-    background: white;
-    font-weight: 700;
-}
-.about-follow{
-    width: 20%;
-    height: 230px;
-    box-sizing: border-box;
-    padding-left: 50px;
-}
-.about-us{
-    padding-bottom: 20px;
-}
-.about-us a{
-    text-decoration: none;
-}
-
-.follow{
-    padding-top: 20px;
-}
-.follow i{
-    font-size: 30px;
-}
-
-.service{
-    width: 20%;
-    height: 230px;
-}
-.service a {
-    text-decoration: none;
-}
-.contact{
-    width: 23%;
-    height: 230px;
-    padding-left: 20px;
-    margin: 0 6% 0 0;
-}
-.copy-right {
-    text-align: center;
-    padding-bottom: 10px;
-    color: white;
-    font-size: 14px;
-}

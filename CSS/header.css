@@ -1,0 +1,76 @@
+.header {
+    position: relative;
+    display: flex;
+}
+.coupon {
+    text-align: center;
+    font-size: 16px;
+    background-color: #CEB9A4;
+    padding: 6px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+
+}
+i {
+    padding-left: 10px;
+}
+.coupon a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+}
+.coupon a:hover {
+    color: #867E7E;
+}
+.scroll-menu-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;  
+}
+.scroll-menu {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white; 
+    justify-content: space-around;
+    z-index: 9999;
+    
+}
+.scroll-menu img {
+    display: block;
+    padding: 0 10px 10px 10px; 
+    height: 100%;
+}
+.scroll-menu .list {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.scroll-menu nav ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+.scroll-menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.scroll-menu .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #504d4d;
+}
+.scroll-menu .icon{
+    display: flex;
+    align-items: center;   
+}
+.icon i{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}

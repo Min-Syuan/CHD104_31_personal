@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     font-size: 20px;
+    margin: 0 10px;
 }
 
 .navigation {
@@ -28,14 +29,12 @@
 }
 
 .mb-logo {
-    max-height: 100px;
-
+    height: 100px;
 }
 
-
 .mb-logo img {
-    /* max-height: 100px; */
     height: 100%;
+    margin-left: 30px;
 }
 .mb-icon {
     display: flex;
@@ -43,9 +42,7 @@
 }
 .mb-icon i{
     font-size: 20px;
-    margin: 10px;
-
-
+    margin-right: 10px ;
 }
 .mb-search {
     width: 100%;
@@ -65,10 +62,16 @@
     background-color: #E9E9E9;
 }
 
-
+.mobile-header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
 .mobile-header, .mb-search, .navigation {
     display:none;
 }
+
 
 @media screen and (max-width: 768px) {
     .mobile-header, .mb-search {
