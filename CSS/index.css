@@ -58,10 +58,19 @@ i {
     width: 100%;
     justify-content: center;
 }
-.header .list div {
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
+.header .banner-slogan {
+    font-size: 60px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 3px;
+    line-height: 100px;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+
+.banner-slogan .bottom {
+    margin-left: 200px;
 }
 
 .header .list nav ul li {
