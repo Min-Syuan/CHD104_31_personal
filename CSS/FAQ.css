@@ -12,6 +12,12 @@
     display: flex;
     flex-direction: column;
 }
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #767676;
+}
 .faq_content .qa {
     display: flex;
     flex-direction: column;
@@ -48,6 +54,9 @@
     display: block;
 }
 @media screen and (max-width: 768px) {
+    .faq_content {
+        margin-top: 50px;
+    }
     .qa button {
         font-size: 5vw;
         align-items: center;
