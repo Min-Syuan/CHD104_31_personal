@@ -8,14 +8,42 @@
     <link rel="stylesheet"href="./CSS/cart.css">
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/hamburger.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet"href="./CSS/grid.css">
+    <script src="./JS/jquery-3.7.1.js"></script>
 </head>
 <body>
+    <div class="mobile-header">
+        <div class="hamburger-menu">
+            <div class="hamburger" id="ham-btn"><i class="fa-solid fa-bars"></i></div>  
+        </div>
+        <div class="mb-logo">
+            <a href="./index.html"><img src="./picture/Group 7.png" alt=""></a>
+        </div>
+        <div class="mb-icon">
+            <a href=""><i class="fa-solid fa-user" style="color: #898585;"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping" style="color: #898585;"></i></a>
+        </div>
+    </div>  
+    <div class="mb-search"><input type="text" id="searchInput" placeholder="Search">
+        <button><i class="fa-solid fa-magnifying-glass" style="color: #898585;"></i></button>
+    </div>
+
+        <div class="navigation" id="ham-nav">
+            <nav>
+                <ul>
+                    <li><a href="./about.html">關於我們</a></li>
+                    <li><a href="./news.html">新品上市</a></li>
+                    <li><a href="./products.html">精選商品</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                    <li><a href="./FAQ.html">常見問題</a></li>
+                </ul>
+            </nav>
+        </div>
     <div class="header">
         <div class="scroll-menu-container">
             <div class="coupon">新用戶享不限金額免運費!! <i class="fa fa-truck" aria-hidden="true"></i><a href="">立即註冊</a></div>
-            <div class="scroll-menu" id="scroll-menu">
+            <div class="scroll-menu" id="scroll">
                 <a href="./index.html"><img src="./picture/Group 7.png" alt="logo"></a>
                 <div class="list">
                     <nav>
@@ -185,5 +213,6 @@
         </div>
         <div class="copy-right">本網站為緯育TibaMe前端工程師班第83期學員專題作品，本平台僅供學習、展示之用。</div>
     </div>
+    <script src="./JS/hamburger.js"></script>
 </body>
 </html>
