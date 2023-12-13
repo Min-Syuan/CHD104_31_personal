@@ -89,3 +89,40 @@
     color: white;
     font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+    }
+    .footer-container {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        height: auto;
+        padding-top: 30px;
+
+    }
+    .footer-container h3 {
+        display: none;
+    }
+    .about-us, .service, .subscribe {
+        display: none;
+    }
+    .about-follow {
+        padding-left: 0;
+    }
+    .follow {
+        width: auto;
+        padding: 0 20px;
+    }
+    .contact {
+        width: auto;
+        margin-right: 0;
+    }
+    .contact p {
+        font-size: 0.8rem;
+    }
+    .copy-right {
+        font-size: 0.6rem;
+        padding: 0 20px 30px;
+    }
+}
