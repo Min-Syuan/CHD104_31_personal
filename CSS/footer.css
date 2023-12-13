@@ -27,12 +27,13 @@
     justify-content: space-around;
 }
 .subscribe {
-    width: 32%;
+    width: 34%;
     height: 230px;
-    margin: 0 6%;
+    margin: 0 5%;
 }
-.subscribe input {
+.subscribe .email-box input {
     border: none;
+    width: 100%;
 }
 .subscribe input::placeholder{
     color: #989797;
@@ -49,6 +50,9 @@
     border: none;
     background: white;
     font-weight: 700;
+}
+.subscribe input {
+    margin-right: 5px;
 }
 .about-follow{
     width: 20%;
