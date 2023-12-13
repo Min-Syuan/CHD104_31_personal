@@ -362,13 +362,13 @@ i {
     display: flex;
 }
 .irregular1, .irregular2, .irregular3, .irregular4 {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     background-color: #b78484;
     border-radius: 50% 70% 40% 50%/50% 25% 50% 20%;
     margin: 0 20px;
     transition: .5s ease;
-    max-width: 100%;
+    width: 100%;
 }
 .irregular1 img, .irregular2 img, .irregular3 img, .irregular4 img {
     margin-top: 150px;
@@ -485,19 +485,15 @@ i {
     font-weight: 800;
     letter-spacing: 6px;
 }
-.reason {
-    flex-direction: column;
+.section {
     position: absolute;
-    width: 900px;
-    margin-top: 250px;
-
-}
-.reason .section {
     display: flex;
     margin: 15px 0;
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 10px;
+    width: 900px;
+    margin: 250px 0 15px 0;
 }
 .section .text-area {
     width: 600px;
@@ -518,8 +514,13 @@ i {
     width: 100%;
 }
 @media screen and (max-width: 768px) {
-    .reason .section {
+    .section {
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .about-wrap {
+        height: 1200px;
     }
     .about {
         width: 100%;
@@ -530,13 +531,14 @@ i {
     .about img {
         width: 15rem;
     }
-    .reason {
-        width: 300px;
-    }
     .section .text-area {
         width: 300px;
         height: auto;
     }
+    /* .section .pic:first-child {
+        order: -1;
+    } */
+    
 }
 
 .quality-wrap {
@@ -563,10 +565,12 @@ i {
     font-weight: 800;
     letter-spacing: 6px;
 }
-.wrap{
-    width: 1200px;
+.card-wrap{
+    display: flex;
+    width: 1000px;
     position: absolute;
     margin-top: 250px;  
+    justify-content: center;
 }
 .card{
     height: 550px;
@@ -581,20 +585,60 @@ i {
     font-size: 26px;
     color: white;
     font-weight: 600;
-    font-family: 'Noto Serif TC', serif;
     line-height: 60px;
     text-align: center;
     padding: 10px 0;
 }
 .card p {
     font-size: 20px;
-    font-family: 'Noto Serif TC', serif;
     color: white;
     line-height: 30px;
     padding: 0 30px;
 }
 .card img { 
-    width:100%;
+    width:269px;
     border-radius: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .quality-wrap {
+        height: 1200px;
+        width: 100%;
+        margin-top: 500px;
+        margin-bottom: 230%;
+    }
+    .quality {
+        width: 100%;
+    }
+    .quality .title {
+        font-size: 3rem;
+        margin: 60px 0 0 80px;
+    }
+    .quality img {
+        width: 15rem;
+        margin-left: 100px;
+    }
+    .card-wrap {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+        margin: 30px;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .card h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .card p {
+        font-size: 1rem;
+        padding: 1rem;
+        padding: 10px;
+    }
+    .card img {
+        width: 100%;
+    }
+}
