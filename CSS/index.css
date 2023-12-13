@@ -13,7 +13,6 @@
     margin: auto;
     position: fixed;
     z-index: 999;
-
 }
 i {
     padding-left: 10px;
@@ -34,7 +33,6 @@ i {
     height: 950px;
     display: flex;
     flex-direction: column;
-    
 }
 .header .logo-icon {
     display: flex;   
@@ -53,7 +51,6 @@ i {
     align-items: center;
     margin-left: 250px;
     margin-top: 30px;
-
 }
 .header .list {
     display: flex;
@@ -88,7 +85,6 @@ i {
         background-image: url(../picture/banner_small.png);
         background-size: cover;
         background-position: center;
-
     }
     .hidden {
         display: none;
@@ -106,7 +102,6 @@ i {
         display: none;
     }
     
-
 }
 .banner img {
     width: 100%; 
@@ -121,7 +116,6 @@ i {
     display: flex;
     justify-content: center;
     position: relative;
-    
 }
 .scroll-menu {
     display: flex;
@@ -132,7 +126,6 @@ i {
     background-color: white; 
     justify-content: space-between;
     z-index: 9999;
-    
 }
 .scroll-menu img {
     margin: 0 10px 10px 6%; 
@@ -170,11 +163,9 @@ i {
     display: flex;
     margin: auto;
     justify-content: center;
-    
 }
 .news-container {
     width: 1200px;
-    
 }
 .news {
     position: relative;
@@ -192,7 +183,6 @@ i {
     font-size: 64px;
     font-weight: 800;
     letter-spacing: 6px;
-    
 }
 .content {
     display: flex;
@@ -260,7 +250,6 @@ i {
     position: absolute;
     right: 0px;
     border-radius: 4px;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -269,7 +258,6 @@ i {
         display: flex;
         flex-direction: column;
         justify-content: center; 
-
     }
     .news-wrap {
         flex-direction: column;
@@ -356,7 +344,6 @@ i {
     position: absolute;
     margin: 80px 0 80px 10px;
     width: 100%;
-    
 }
 .hot-sale .title {  
     margin: 80px 0 0 0;
@@ -370,7 +357,6 @@ i {
     display: flex;
     width: 100%;
     margin: auto;
-
 }
 .hot-sale-items {
     display: flex;
@@ -387,7 +373,6 @@ i {
 .irregular1 img, .irregular2 img, .irregular3 img, .irregular4 img {
     margin-top: 150px;
     margin-left: 180px;
-
 }
 .hot-sale-items h2 a {
     display: block;
@@ -405,29 +390,24 @@ i {
     text-decoration: line-through;
     padding-right: 20px;
     color: #797373;
-    
 }
 .irregular1{
     background-image: url(../picture/山林木屋蠟燭_紅雪松.png);
-
 }
 .irregular2{
     background-image: url(../picture/旅人蠟燭_菸草.png);
     background-size: cover;
     background-position: bottom;
-    
 }
 .irregular3{
     background-image: url(../picture/夢想系列_苦橙佛手柑.png);
     background-size: cover;
     background-position: center;
-    
 }
 .irregular4{
     background-image: url(../picture/午夜星空蠟燭_茉莉.png);
     background-size: cover;
     background-position: bottom;
-    
 }
 
 .irregular1:hover,
@@ -451,15 +431,12 @@ i {
     .hot-sale .title {
         font-size: 3rem;
         margin: 40px 0 0 60px;
-        
     }
     .hot-sale .pic {
         margin: 40px 0 0 100px;
-
     }
     .hot-sale img {
         width: 15rem;
-        
     }
     .items-container {
         width: 330px;
@@ -475,7 +452,6 @@ i {
         width: 1300px;
         transition: transform 0.5s ease;
     }
-    
 }
 
 
@@ -551,7 +527,6 @@ i {
     .about .title {
         font-size: 3rem;
     }
-    
     .about img {
         width: 15rem;
     }
