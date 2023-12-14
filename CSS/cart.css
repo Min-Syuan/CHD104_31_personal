@@ -89,9 +89,12 @@
 .info-content {
     display: flex;  
     align-items: center;
-    width: 30%;
+    max-width: 30%;
     padding: 15px;
     justify-content: space-between;
+}
+.info-content img {
+    width: 100%;
 }
 .info-content a {
     padding: 10px;
@@ -110,8 +113,14 @@
     border: 1px solid #D9D9D9;
     border-radius: 4px;  
 }
+.qty-btn input {
+    width: 30%;
+    padding: 8px 0;
+    border: none;
+    text-align: center;
+}
 .qty-btn button {
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 16px;
     background-color: white;
     color: #898585;
@@ -295,6 +304,42 @@
 @media screen and (max-width: 768px) {
     .process-text {
         font-size: 0.6rem;
+    }
+    .cart-wrap {
+        width: 80%;
+    }
+    .cart-content {
+        box-sizing: border-box;
+    }
+    .title {
+        justify-content: space-between;
+        font-size: 0.8rem;
+    }
+    .cart-content {
+        justify-content: space-around;
+    }
+    .free-ship {
+        flex-wrap: wrap;
+    }
+    .mark {
+        display: none;
+    }
+    .free-ship p {
+        padding: 10px 10px 16px 10px;
+        line-height: 1.2rem;
+    }
+    .info-content {
+        flex-direction: column;
+    }
+    .info-content p {
+        font-size: 0.8rem;
+    }
+    .price, .price-content {
+        display: none;
+    }
+    .qty-btn button {
+        display: none;
+
     }
     .pay-ship-info {
         flex-direction: column;

@@ -534,9 +534,11 @@ i {
     }
     .about .title {
         font-size: 3rem;
+        margin: 60px 0 0 80px;
     }
     .about img {
         width: 15rem;
+        margin-left: 100px;
     }
     .section .text-area {
         width: 300px;
