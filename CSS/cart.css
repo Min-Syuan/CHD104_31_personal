@@ -30,7 +30,8 @@
 }
 
 .cart-wrap {
-    width: 1000px;
+    max-width: 1000px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +198,7 @@
 
 .pay-ship-info {
     max-width: 1000px;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -350,13 +351,17 @@
     .info-content {
         flex-direction: column;
     }
-    /*  */
     .price, .price-content {
         display: none;
     }
-    .qty-btn button {
-        display: none;
-
+    .qty-btn {
+        width: 15%;
+        justify-content: space-around;
+    }
+    .qty-btn input {
+        padding: 10px 0;
+        
+    
     }
     .delete-icon {
         width: 11%;
