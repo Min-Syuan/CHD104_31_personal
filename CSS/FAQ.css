@@ -60,7 +60,6 @@ h1 {
     .qa button {
         font-size: 5vw;
         align-items: center;
-
     }
     .faq_content .q {
         font-size: 3vw;
@@ -69,11 +68,8 @@ h1 {
     }
     .faq_content .a {
         font-size: 3vw;
-
     }
     .faq_content .qa {
         margin: 0 30px;
     }
-
-    
 }
