@@ -23,7 +23,7 @@ h1 {
     flex-direction: column;
     letter-spacing: 1px;
 }
-.qa label {
+.q label {
     cursor: pointer;
 }
 .qa button {
