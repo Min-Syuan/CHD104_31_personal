@@ -634,6 +634,8 @@ i {
     background-color: #A5835E;
     background-image: url(../picture/wood-pattern.png);
     border-radius: 10px;
+    max-width: 330px;
+    width: 80%;
 }
 
 .card h2 {
@@ -651,7 +653,8 @@ i {
     padding: 0 30px;
 }
 .card img { 
-    width:269px;
+    max-width:269px;
+    /* width: 100%; */
     border-radius: 10px;
 }
 
@@ -659,8 +662,8 @@ i {
     .quality-wrap {
         height: 1200px;
         width: 100%;
-        margin-top: 500px;
-        margin-bottom: 230%;
+        margin-top: 350px;
+        margin-bottom: 200%;
     }
     .quality {
         width: 100%;
@@ -679,19 +682,17 @@ i {
         align-items: center;
     }
     .card {
-        width: 80%;
         margin: 30px;
         box-sizing: border-box;
         height: auto;
     }
     .card h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
     .card p {
         font-size: 1rem;
-        padding: 1rem;
-        padding: 10px;
+        padding: 0 10px 10px 10px;
     }
     .card img {
         width: 100%;

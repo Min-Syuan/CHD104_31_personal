@@ -58,9 +58,9 @@ $(function () {
 
         index = $(this).index()
         // alert(index)
-        $('#content').animate({
-            left: divWidth * index * -1,
-        })
+        // $('#content').animate({
+        //     left: divWidth * index * -1,
+        // })
 
         $(this).addClass('clicked')
         $('#contentButton li').not(this).removeClass('clicked')

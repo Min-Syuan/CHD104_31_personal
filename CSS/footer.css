@@ -128,5 +128,6 @@
     .copy-right {
         font-size: 0.6rem;
         padding: 0 20px 30px;
+        line-height: 1rem;
     }
 }
