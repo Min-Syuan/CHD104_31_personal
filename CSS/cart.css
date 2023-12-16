@@ -307,7 +307,7 @@
 @media screen and (max-width: 768px) {
     .process-pic {
         width: 80%;
-
+        margin-top: 100px;
     }
     .process-pic .number {
         font-size: 0.8rem;
@@ -360,8 +360,6 @@
     }
     .qty-btn input {
         padding: 10px 0;
-        
-    
     }
     .delete-icon {
         width: 11%;
