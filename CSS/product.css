@@ -34,12 +34,16 @@
     display: flex;
     max-width: 430px;
     width: 100%;
+    box-sizing: border-box;
+}
+.other-pic div {
+    margin-right: 10px;
 }
 .other-pic img {
     max-width: 80px;
     width: 100%;
     height: auto;
-    margin: 10px 10px 10px 0;
+    margin: 10px 0;
     border-radius: 10px;
 }
 .product-card {
@@ -219,6 +223,9 @@
     .product-card {
         margin: 50px auto 100px auto;
     }
+    /* .other-pic img {
+        width: 100%;
+    } */
     .recommend-title {
         font-size: 2rem;
         top: -75px;
