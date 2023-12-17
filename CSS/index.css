@@ -462,6 +462,10 @@ i {
     .hot-sale-items {
         display: flex;
         width: 1300px;
+        box-sizing: border-box;
+    }
+    .hot-sale-items .item {
+        display: inline-block;
     }
     .hot-sale-items h2 a {
         font-size: 1rem;
