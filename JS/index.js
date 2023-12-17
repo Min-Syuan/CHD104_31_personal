@@ -54,8 +54,8 @@ $(function () {
         }
         $('#contentButton li:first').addClass('clicked');
 
-        $('#content li').width(divWidth); // li寬
-        $('#content').width(divWidth * imgCount); // ul寬
+        // $('#content li').width(divWidth); // li寬
+        // $('#content').width(divWidth * imgCount); // ul寬
 
         timer = setInterval(moveToNext, 3000);
 
@@ -86,7 +86,7 @@ $(function () {
     }
 
     if ($(window).width() <= 768) {
-        divWidth = $('#sliderBoard').width();
+        divWidth = $('#sliderBoard').width()+10;
         imgCount = $('#content li').length;
         sliderActive(divWidth, imgCount);
     }
