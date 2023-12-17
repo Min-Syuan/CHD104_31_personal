@@ -72,11 +72,11 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="product-pic">
-                        <img class="main-pic" src="./picture/product_grapefruit.png" alt="">
+                        <img class="main-pic" src="./picture/product_grapefruit.png" alt="" id="large">
                         <div class="other-pic">
-                            <img src="./picture/product_small1.png" alt="">
-                            <img src="./picture/product_small2.png" alt="">
-                            <img class="candle" src="./picture/Group 102.png" alt="">
+                            <img src="./picture/product_small1.png" alt="" class="small">
+                            <img src="./picture/product_small2.png" alt="" class="small">
+                            <img class="candle small" src="./picture/Group 102.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -92,9 +92,9 @@
                             <span class="old-price">NT$ 1,480</span>
                         </div>
                         <div class="qty-btn">
-                            <button>+</button>
-                            <span>1</span>
-                            <button>-</button>
+                            <input type="button" value="-" id="qtyMinus">
+                            <input type="text" value="1" id="qty1">
+                            <input type="button" value="+" id="qtyPlus">
                         </div>
                         <div class="cart-btn">
                             <div class="add"><a href="">加入購物車</a></div>
@@ -192,6 +192,6 @@
         <div class="copy-right">本網站為緯育TibaMe前端工程師班第83期學員專題作品，本平台僅供學習、展示之用。</div>
     </div>
     <script src="./JS/hamburger.js"></script>
-    
+    <script src="./JS/plus_minus.js"></script>
 </body>
 </html>
