@@ -45,7 +45,7 @@
     top: 11rem;
     left: 10rem;
 }
-.card a {
+.card a.text{
     display: block;
     text-decoration: none;
     color: #504d4d;
