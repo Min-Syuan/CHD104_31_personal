@@ -17,20 +17,22 @@
 
 .about-section1, .about-section2, .about-section3 {
     display: flex;
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
     justify-content: space-between;
-    letter-spacing: 1px;
-    line-height: 24px;
 }
 .about-text, .about-pic {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     padding: 30px;
     display: flex;
     margin: auto;
     color: #81827C;
     font-size: 18px;
-    letter-spacing: 1px;  
+    letter-spacing: 2px;  
+    line-height: 26px;
+    box-sizing: border-box;
 }
 
 .about-border {
@@ -38,4 +40,25 @@
     background-color: #9da976;
     margin: 0 20px;
 }
+@media screen and (max-width: 768px){
+    .about-wrap {
+        margin-top: 0;
+    }
+    .about-slogan {
+        font-size: 2rem;
+        margin: 0 0 20px 0;
+    }
+    .about-section2 {
+        flex-direction: column;
+    }
+    .about-section1, .about-section3 {
+        flex-direction: column-reverse;
 
+    }
+    .about-border {
+        display: none;
+    }
+    .about-text, .about-pic {
+        padding: 25px 0;
+    }
+}
