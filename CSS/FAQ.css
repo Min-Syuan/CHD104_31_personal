@@ -21,7 +21,7 @@ h1 {
 .faq_content .qa {
     display: flex;
     flex-direction: column;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 .q label {
     cursor: pointer;
@@ -62,12 +62,12 @@ h1 {
         align-items: center;
     }
     .faq_content .q {
-        font-size: 3vw;
+        font-size: 4vw;
         align-items: center;
         line-height: 6vw;
     }
     .faq_content .a {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .faq_content .qa {
         margin: 0 30px;
