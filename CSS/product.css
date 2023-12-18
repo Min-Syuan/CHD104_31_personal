@@ -187,6 +187,9 @@
     position: relative;
     align-items: center;
 }
+.recommend .card img {
+    border-radius: 10px;
+}
 
 .recommend .card img.small {
     position: absolute;
